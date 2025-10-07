@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Datos
 dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
-tazas = [2, 3, 1, 4, 5, 2, 3]
+tazas = [2, 3, 1, 3, 1, 2, 3]
 
 # Crear gráfico de barras
 plt.bar(dias, tazas)
@@ -14,4 +14,5 @@ plt.xlabel('Días de la semana')
 plt.ylabel('Número de tazas')
 
 # Mostrar gráfico
+
 plt.show()
